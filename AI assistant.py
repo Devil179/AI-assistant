@@ -132,6 +132,7 @@ if __name__ == "__main__":
         
         elif 'thank you' in query:
             speak("it's my job to get you out of trouble sir ")
+            exit()
 
         elif 'bye' in query:
             exit()

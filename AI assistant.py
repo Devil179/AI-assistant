@@ -72,13 +72,13 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"sir, the time is {strTime}")
 
-        elif 'open call of duty' in query:
-           codePath = "C:\\Users\\devil\\Desktop\\Call of Duty Modern Warfare\\iw3sp.exe"  
-           os.startfile(codePath)
+#         elif 'open call of duty' in query:
+#            codePath = "C:\\Users\\devil\\Desktop\\Call of Duty Modern Warfare\\iw3sp.exe"  
+#            os.startfile(codePath)
 
-        elif 'open among us' in query:
-            codePath = "C:\\Users\\devil\\Desktop\\Among.Us.v2020.10.22s\\Among.Us.v2020.10.22s\\Among Us\\Among Us.exe"
-            os.startfile(codePath)
+#         elif 'open among us' in query:
+#             codePath = "C:\\Users\\devil\\Desktop\\Among.Us.v2020.10.22s\\Among.Us.v2020.10.22s\\Among Us\\Among Us.exe"
+#             os.startfile(codePath)
 
         elif 'hey steve' in query:
             speak("hello sir")
